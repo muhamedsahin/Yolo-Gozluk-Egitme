@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['glasses-box']
+
+roboflow:
+  workspace: mfs-cjuie
+  project: glasses-box-model
+  version: 1
+  license: MIT
+  url: https://universe.roboflow.com/mfs-cjuie/glasses-box-model/dataset/1
